@@ -1,0 +1,47 @@
+<!-- NAVIGATION -->
+<nav id="nav">
+  <ul class="wrapper">
+    {% if site.sections.about %}
+      <li class="nav-item">
+        <a href="./#about" class="nav-link">{{site.about_section.title}}</a>
+      </li>
+    {% endif %}
+    {% if site.sections.c4p %}
+      <li class="nav-item">
+        <a href="./#c4p" class="nav-link">{{site.c4p_section.title}}</a>
+      </li>
+    {% endif %}
+    {% if site.sections.location %}
+      <li class="nav-item">
+        <a href="./#location" class="nav-link">{{site.location_section.title}}</a>
+      </li>
+    {% endif %}
+    {% if site.sections.speakers %}
+      <li class="nav-item">
+        <a href="./#speakers" class="nav-link">{{site.speakers_section.title}}</a>
+      </li>
+    {% endif %}
+    {% if site.sections.schedule %}
+      <li class="nav-item">
+        <a href="./#schedule" class="nav-link">{{site.schedule_section.title}}</a>
+      </li>
+    {% endif %}
+    {% if site.sections.supporters %}
+      <li class="nav-item">
+        <a href="./#supporters" class="nav-link">{{site.supporters.title}}</a>
+      </li>
+    {% endif %}
+    {% if site.sections.partners %}
+      <li class="nav-item">
+        <a href="./#partners" class="nav-link">{{site.partners_section.title}}</a>
+      </li>
+    {% endif %}
+    {% if site.sections.contact %}
+      <li class="nav-item">
+        <a href="./#contact" class="nav-link">{{site.contact_section.title}}</a>
+      </li>
+    {% endif %}
+  </ul>
+</nav>
+
+<hr />

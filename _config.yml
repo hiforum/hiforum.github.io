@@ -1,0 +1,249 @@
+# Jekyll
+markdown: rdiscount
+highlighter: "pygments"
+permalink: /:title.html
+
+# Conference info
+conf:
+   name: "HISS 2015"
+   description: "High Integrity Systems Symposium"
+   date: "June 3, 2015"
+   price: "Participation is open and free*"
+   address: "Simula Research Laboratory, IT Fornebu, Martin Linges vei 25, Fornebu, Norway"
+   venue: "Simula Research Laboratory"
+   city: "Oslo, Norway"
+   directions: 
+    - 
+      p: "Simula is located in IT Fornebu's 'Terminalbygget'. Simula's main entrance is on the 3rd floor, turning right up the stairs of 'Kai Fjell-hallen'. Simula can be easily reached by public transport or by car. From Oslo Airport, there is a direct train connection to Lysaker station, and a short ~5-10min busride from there. Hotels are available both in Oslo centre, and in the near surroundings of Simula." 
+    -
+      p: "<strong>Directions by Public Transport:</strong> Take the train to Skøyen or Lysaker station which both have regular bus departures to Fornebu. The following bus routes stop at IT Fornebu: 28, 24, 31, 31E and 36E. If you are going by bus directly from the centre of Oslo, bus 31E or 36E are the fastest. The bus stop closest to Simula is called 'IT Fornebu'. For more information and schedules look at <a href=http://www.trafikanten.no/>Ruter</a> or call 177 (within Oslo/Akershus)."
+    -
+      p: "After you exit the bus, you will see the orange hub in the middle of 'Portalbygget'. You need to walk down the stairs beneath it to get to the main entrance hall ('Resepsjon'). Right before the reception, there is a staircase. Walk up the stairs to the 3rd floor and you find Simulas main entrance.  Please ring the bell and we will open for you. If you need to use the elevator, please call Simula at 67 82 82 00.<br/>Please ask for directions in IT Fornebu's reception." 
+    - 
+      p: "<strong>Directions by Car:</strong> Follow directions towards Fornebu and then follow the signs for Snarøya. After you have passed the Telenor building, follow the road straight ahead through a junction and then take the second exit  ('Rolfsbuktveien') at the first roundabout. Drive past the orange hub/building and take the first turn left at the corner of the HP-builing. Guests can park for a fee in the underground parking house between 'Terminalbygget' and the new Statoil building. Take the stairs/lift up and walk to the reception. From there you can follow the directions given above. Keep in mind that driving patterns may change due to the construction work going on at IT Fornebu."
+
+# Site info
+site:
+  url: "http://high-integrity-systems.no"
+  favicon: "img/favicon.ico"
+  googleanalytics: ""
+  images:
+    cover: "img/background.jpg"
+
+subscribe_text: "Register now"
+subscribe_url: "http://www.eventick.com.br/"
+
+# Active sections on the website
+sections:
+  about: true
+  c4p: false
+  location: true
+  speakers: true
+  schedule: true
+  supporters: true
+  partners: true
+  contact: true
+
+# Schedule section
+schedule_section:
+   title: "(Tentative) Schedule"
+   text: "While we are working out the speaker details, the schedule below provides an impression of the overall program / topics we aim at."
+   time: "Time"
+   slot: "Slot"
+   description: "Description"
+
+# The entire schedule
+schedule:
+  -
+    name: "Check-in"
+    time: "9h00"
+  -
+    name: "Opening & Welcome"
+    time: "9h15"
+    description: "Description of opening speakers"
+  -
+    name: "Name Keynote Speaker"
+    photo: "img/black_man.png"
+    bio: "Bio of keynote speaker"
+    company: "Affiliation"
+    email: "mail@here.org"
+    twitter: "twitterhandle"
+    presentation:
+      title: "Keynote: Towards a Discipline of Systematic High Intrigrity Systems Engineering"
+      description: "Keynote Abstract"
+      time: "9h30"
+  -
+    name: "Coffee-break"
+    time: "10h30"
+  -
+    name: "Name Speaker #1"
+    photo: "img/brown_woman.png"
+    bio: "Bio of speaker 1."
+    company: "Affiliation"
+    twitter: "twitterhandle"
+    presentation:
+      title: "Challenges High Integrity Systems in the Maritime Industry"
+      description: "Abstract"
+      time: "11h00"
+  -
+    name: "Name Speaker #2"
+    photo: "img/orange_boy.png"
+    bio: "Bio of speaker 2."
+    company: "Affiliation"
+    email: "mail@there.io"
+    presentation:
+      title: "Ensuring Safety of Robots"
+      description: "Abstract"
+      time: "11h30"
+  -
+    name: "Lunch"
+    time: "12h00"
+  -
+    name: "Name Speaker #3"
+    photo: "img/red_woman.png"
+    bio: "Bio of speaker 3."
+    company: "Affiliation"
+    presentation:
+      title: "Integrity concerns in e-Health Systems"
+      description: "Abstract"
+      time: "13h00"
+  -
+    name: "Name Speaker #4"
+    photo: "img/brown_man.png"
+    bio: "Bio of speaker 4."
+    company: "Affiliation"
+    twitter: "twitterhandle"
+    presentation:
+      title: "Security Challenges in Electronic Voting"
+      description: "Abstract"
+      time: "13h30"
+  -
+    name: "Name Speaker #5"
+    photo: "img/white_woman.png"
+    bio: "Bio of speaker 5."
+    company: "Affiliation"
+    twitter: "twitterhandle"
+    presentation:
+      title: "Safety Assessment of High Energy Systems"
+      description: "Abstract"
+      time: "14h00"
+  -
+    name: "Coffee-break"
+    time: "14h30"
+  -
+    name: "Name Speaker #6"
+    photo: "img/orange_girl.png"
+    bio: "Bio of speaker 6."
+    company: "Affiliation"
+    twitter: "twitterhandle"
+    presentation:
+      title: "Towards better Certification Practices in Avionics"
+      description: "Abstract"
+      time: "15h00"
+  -
+    name: "Name Speaker #7"
+    photo: "img/red_man.png"
+    bio: "Bio of speaker 7."
+    company: "Affiliation"
+    twitter: "twitterhandle"
+    presentation:
+      title: "Robust Communication Infrastructures"
+      description: "Abstract"
+      time: "15h30"
+  -
+    name: "Panelists"
+    photo: "img/discussion-icon.png"
+    bio: "Names and affiliation / short bio of initial panelists."
+    presentation:
+      title: "Fishbowl Panel Discussion"
+      description: "Description of the panel format/procedure: 'Fishbowl' rotating panel."
+      time: "16h00"
+  -
+    name: "Wrap-up"
+    time: "17h00"
+
+# List of Supporters
+supporters:
+
+# List of Partners (same format as supporters)
+partners:
+  -
+    name: "Simula Research Laboratory"
+    logo: "img/simula-logo.png"
+    url: "https://simula.no"
+  -
+    name: "Certus Center for Research-based Innovation"
+    logo: "img/certus-logo.png"
+    url: "https://certus-sfi.no"
+  -
+    name: "University of Bergen, Department of Informatics"
+    logo: "img/uib-logo.svg"
+    url: "https://www.uib.no/ii/"
+  -
+    name: "Bergen Language Design Laboratory"
+    logo: "img/bldl-logo.png"
+    url: "https://bldl.ii.uib.no/"
+
+
+# About section
+about_section:
+   title: "About"
+   description: 
+    - 
+      p: "Software has become an essential part of our critical national infrastructure, such as transport systems, banking industries, and energy generation, and a key element in devices in the medical and automotive sector. The failure of such software-based systems can have profound consequences both for individuals and for companies that are responsible for delivering such software."
+    -
+      p: "High integrity software and system engineering used to be the realm of avionics and the military, but with today's highly-interconnected and mobile systems, it is increasingly needed for common  applications to be able to demonstrate their reliability, robustness, safety, security and maintainability. As such, sound technologies that can address these high integrity concerns in an efficient manner are one of today’s key engineering challenges. "
+    -
+      p: "The one day High Integrity Systems Symposium will be held at Simula in the first week of June 2015. It will will feature keynote talks from leading experts, presentations on current technology and experiences by researchers and practitioners, as well as a call for action to organize high integrity stakeholders in a national High Integrity Systems Forum.  We aim at 50-80 participants, mostly from Norway, with an equal mix of industrial and academic participants. We also aim at inviting a small number (4-5) of high profile international experts in the field, either as keynote speaker or as discussion leader."
+    - 
+      p: "HISS 2015 builds on the success of the <a href=http://www.uib.no/ii/59562/bldl-high-integrity-day>2014 High Integrity Day</a>."
+    -
+      p: "* Please note that space is limited and attendance is by registration only. We recommend holding off on travel and accommodation bookings until you receive the confirmation of registration from the workshop organisers, to avoid disappointment. There is no attendance fee. However, please appreciate that space is limited and catering needs to be booked in advance. For this reason, even though participation to the workshop is free of charge, there will be a cancellation fee of NOK 1000 for those who register but subsequently do not attend."
+
+# Call for papers section (unused for HISS 2015)
+c4p_section:
+   title: "Call for papers"
+   text: "We want your papers. Topics of interest include...."
+   c4p_url: "http://call4papers.url"
+   c4p_caption: "Submit"
+   c4p_rules_url: "http://call4paperz.url/guidelines/"
+   c4p_rules_caption: "Guidelines for submission."
+
+# Contact section
+contact_section:
+   title: "Contact"
+   text: "Contact us if you have any questions."
+   contacts:
+   -
+     title: "Leon Moonen"
+     link: "mailto:leon.moonen@computer.org"
+
+   email: "leon.moonen@computer.org"
+   twitter_url: "http://twitter.com/your_twitter"
+   twitter_username: "@your_twitter"
+   show_form: false
+   form:
+    action: "contact-form.php"
+    name: "What's your name?"
+    email: "What's your email?"
+    message: "Write a message"
+    send_button: "Send"
+
+
+# Location section
+location_section:
+   title: "Location"
+
+# Speakers section
+speakers_section:
+   title: "Speakers"
+
+# Partners section
+partners_section:
+   title: "Partners"
+   show_your_logo_here: false
+
+# supporters section
+supporters_section:
+   title: "Sponsors"
+   show_your_logo_here: true
