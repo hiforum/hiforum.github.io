@@ -6,7 +6,11 @@
 
     {% if site.conf.address != '' %}
       <p>{{ site.conf.address }}</p>
-      <div id="map-canvas" class="location-area" data-address="{{ site.conf.address }}"></div>
+    {% endif %}
+    {% if site.conf.mappointer-override != '' %}
+      <p><div id="map-canvas" class="location-area" data-address="{{ site.conf.mappointer-override }}"></div></p>
+    {% elsif site.conf.address != '' %}
+      <p><div id="map-canvas" class="location-area" data-address="{{ site.conf.address }}"></div></p>
     {% endif %}
 
     {% for p in site.conf.directions %}

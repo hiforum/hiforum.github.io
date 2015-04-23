@@ -9,16 +9,17 @@ conf:
    description: "High Integrity Systems Symposium"
    date: "June 3, 2015"
    price: "Participation is open and free*"
-   address: "Simula Research Laboratory, IT Fornebu, Martin Linges vei 25, Fornebu, Norway"
+   address: "Simula Research Laboratory, Martin Linges vei 25, Fornebu, Norway (3rd floor of Terminalbygget, IT Fornebu/Technopolis)"
+   mappointer-override: "Simula+Research+Laboratory/@59.8953574,10.6291997"
    venue: "Simula Research Laboratory"
    city: "Oslo, Norway"
    directions: 
     - 
-      p: "Simula is located in IT Fornebu's 'Terminalbygget'. Simula's main entrance is on the 3rd floor, turning right up the stairs of 'Kai Fjell-hallen'. Simula can be easily reached by public transport or by car. From Oslo Airport, there is a direct train connection to Lysaker station, and a short ~5-10min busride from there. Hotels are available both in Oslo centre, and in the near surroundings of Simula." 
+      p: "Simula can be easily reached by public transport or by car. From Oslo Airport, there is a direct train connection to Lysaker station, and a short ~5-10min busride from there. Hotels are available both in Oslo centre, and in the near surroundings of Simula." 
     -
       p: "<strong>Directions by Public Transport:</strong> Take the train to Skøyen or Lysaker station which both have regular bus departures to Fornebu. The following bus routes stop at IT Fornebu: 28, 24, 31, 31E and 36E. If you are going by bus directly from the centre of Oslo, bus 31E or 36E are the fastest. The bus stop closest to Simula is called 'IT Fornebu'. For more information and schedules look at <a href=http://www.trafikanten.no/>Ruter</a> or call 177 (within Oslo/Akershus)."
     -
-      p: "After you exit the bus, you will see the orange hub in the middle of 'Portalbygget'. You need to walk down the stairs beneath it to get to the main entrance hall ('Resepsjon'). Right before the reception, there is a staircase. Walk up the stairs to the 3rd floor and you find Simulas main entrance.  Please ring the bell and we will open for you. If you need to use the elevator, please call Simula at 67 82 82 00.<br/>Please ask for directions in IT Fornebu's reception." 
+      p: "After you exit the bus, you will see the orange hub in the middle of 'Portalbygget'. You need to walk down the stairs beneath it to get to the main entrance hall ('Kai Fjell-hallen' / 'Resepsjon') of 'Terminalbygget'. Take the stairs that go up right before the reception, and you will find Simulas main entrance on the 3rd floor.  Please ring the bell and we will open for you. If you need to use the elevator, call Simula at 67 82 82 00. Please ask for directions in IT Fornebu's reception." 
     - 
       p: "<strong>Directions by Car:</strong> Follow directions towards Fornebu and then follow the signs for Snarøya. After you have passed the Telenor building, follow the road straight ahead through a junction and then take the second exit  ('Rolfsbuktveien') at the first roundabout. Drive past the orange hub/building and take the first turn left at the corner of the HP-builing. Guests can park for a fee in the underground parking house between 'Terminalbygget' and the new Statoil building. Take the stairs/lift up and walk to the reception. From there you can follow the directions given above. Keep in mind that driving patterns may change due to the construction work going on at IT Fornebu."
 

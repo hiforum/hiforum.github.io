@@ -43,7 +43,7 @@ $(document).ready ( function() {
         });
 
       } else {
-        alert("Google Maps não foi carregado pelo seguinte motivo: " + status);
+        alert("Google Maps is not loaded for the following reason: " + status);
       }
 
     });
