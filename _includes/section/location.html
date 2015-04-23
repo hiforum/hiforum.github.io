@@ -1,0 +1,19 @@
+{% if site.sections.location %}
+
+  <!-- LOCATION -->
+  <section class="location" id="location">
+    <h2 class="section-title">{{site.location_section.title}}</h2>
+
+    {% if site.conf.address != '' %}
+      <p>{{ site.conf.address }}</p>
+      <div id="map-canvas" class="location-area" data-address="{{ site.conf.address }}"></div>
+    {% endif %}
+
+    {% for p in site.conf.directions %}
+        <p>{{p.p}}</p>
+    {% endfor %}
+
+  </section>
+  <!-- / LOCATION -->
+
+{% endif %}
