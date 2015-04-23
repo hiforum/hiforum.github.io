@@ -25,13 +25,13 @@ conf:
 # Site info
 site:
   url: "http://high-integrity-systems.no"
-  favicon: "img/favicon.ico"
+  favicon: "img/favicon.png"
   googleanalytics: ""
   images:
     cover: "img/background.jpg"
 
 subscribe_text: "Register now"
-subscribe_url: "http://www.eventick.com.br/"
+subscribe_url: "http://not.yet.implemented/"
 
 # Active sections on the website
 sections:
