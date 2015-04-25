@@ -181,10 +181,6 @@ partners:
     logo: "img/ife-logo.png"
     url: "http://ife.no/en"
   -
-    name: "University of Bergen, Department of Informatics"
-    logo: "img/uib-logo.svg"
-    url: "https://www.uib.no/ii/"
-  -
     name: "Bergen Language Design Laboratory"
     logo: "img/bldl-logo.png"
     url: "https://bldl.ii.uib.no/"
