@@ -6,7 +6,7 @@
     <p>{{site.contact_section.text}}</p>
     
     {% for contact in site.contact_section.contacts %}
-      <p><a href="{{contact.link}}">{{contact.title}}</a></p>
+      <p><a href="mailto:{{contact.email}}">{{contact.title}}</a></p>
     {% endfor %} 
     
     {% if site.contact_section.show_form == true %}

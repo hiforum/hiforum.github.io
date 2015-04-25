@@ -177,6 +177,10 @@ partners:
     logo: "img/certus-logo.png"
     url: "https://certus-sfi.no"
   -
+    name: "Institute for Energy Technology"
+    logo: "img/ife-logo.png"
+    url: "http://ife.no/en"
+  -
     name: "University of Bergen, Department of Informatics"
     logo: "img/uib-logo.svg"
     url: "https://www.uib.no/ii/"
@@ -212,23 +216,26 @@ c4p_section:
 
 # Contact section
 contact_section:
-   title: "Contact"
+   title: "Organizers"
    text: "Contact us if you have any questions."
    contacts:
    -
-     title: "Leon Moonen"
-     link: "mailto:leon.moonen@computer.org"
+     title: "Leon Moonen (Simula Research Laboratory)"
+     email: "leon.moonen@computer.org"
+   -
+     title: "Sunil Nair (Institute for Energy Technology)"
+     email: "Sunil.Nair@ife.no"
 
    email: "leon.moonen@computer.org"
    twitter_url: "http://twitter.com/your_twitter"
    twitter_username: "@your_twitter"
    show_form: false
    form:
-    action: "contact-form.php"
-    name: "What's your name?"
-    email: "What's your email?"
-    message: "Write a message"
-    send_button: "Send"
+     action: "contact-form.php"
+     name: "What's your name?"
+     email: "What's your email?"
+     message: "Write a message"
+     send_button: "Send"
 
 
 # Location section
