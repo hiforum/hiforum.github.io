@@ -8,7 +8,7 @@ conf:
    name: "HISS 2015"
    description: "High Integrity Systems Symposium"
    date: "June 3, 2015"
-   price: "Participation is open and free*"
+   price: "Participation is open and free* - Register by May 26th!"
    address: "Simula Research Laboratory, Martin Linges vei 25, Fornebu, Norway (3rd floor of Terminalbygget, IT Fornebu/Technopolis)"
    mappointer-override: "Simula+Research+Laboratory/@59.8953574,10.6291997"
    venue: "Simula Research Laboratory"
@@ -32,7 +32,7 @@ site:
     cover: "img/background.jpg"
 
 subscribe_text: "Register now"
-subscribe_url: "http://not.yet.implemented/"
+subscribe_url: "https://docs.google.com/forms/d/19HlHBGpCffhjksMH9SO0HWff309rBEZNb_wuxvQFIlE/viewform?usp=send_form"
 
 # Active sections on the website
 sections:
