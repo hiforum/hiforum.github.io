@@ -1,0 +1,117 @@
+# Jekyll
+markdown: rdiscount
+highlighter: "pygments"
+permalink: /:title.html
+
+# Conference info
+conf:
+   name: "HISE forum"
+   description: "High Integrity System Engineering Forum"
+   tagline: "A network for those interested in High Integrity Systems Engineering in Norway"
+
+# Site info
+site:
+  url: "http://high-integrity-systems.no/forum"
+  favicon: "img/favicon.png"
+  googleanalytics: ""
+  images:
+    cover: "img/background.jpg"
+
+subscribe_text: "Sign up to become a member now"
+subscribe_url: "https://not.yet.implemented/"
+
+# Active sections on the website
+sections:
+  about: true
+  committee: true
+  supporters: true
+  partners: true
+  contact: true
+
+# About section
+about_section:
+   title: "About"
+   description: 
+    - 
+      p: "Software has become an essential part of our critical national infrastructure, such as transport systems, banking industries, and energy generation, and a key element in devices in the medical and automotive sector. The failure of such software-based systems can have profound consequences both for individuals and for companies that are responsible for delivering such software."
+    -
+      p: "High integrity software and system engineering used to be the realm of avionics and the military, but with today's highly-interconnected and mobile systems, it is increasingly needed for common  applications to be able to demonstrate their reliability, robustness, safety, security and maintainability. As such, sound technologies that can address these high integrity concerns in an efficient manner are one of today’s key engineering challenges. "
+    -
+      p: "The High Integrity System Engineering Forum is a network than brings together practitioners and researchers to discuss the challenges and opportunities in high integrity software and system engineering."
+    - 
+      p: "In addition to online exchange, the HISE Forum members meet yearly on the <a href=''>High Integrity Systems Symposium</a>."
+
+# Committee section
+committee_section:
+   title: "Steering Committee"
+
+committee:
+  -
+    chair: yes
+    name: "Magne Haveraaen"
+    photo: "img/magne_haveraaen.jpg"
+    bio: "Magne Haveraaen's bio still needs to be added..."
+    company: "University of Bergen, Norway"
+    no-email: "Magne.Haveraaen@ii.uib.no"
+    homepage: "http://www.ii.uib.no/~magne/"
+  -
+    name: "Hans Schaefer"
+    bio: "Hans Schaefer's bio still needs to be added..."
+    photo: "img/hans_schaefer.jpg"
+    company: "Independent consultant, Norway"
+    no-email: "hans.schaefer@ieee.org"
+    homepage: "http://software-testing.no/testing.html"
+  -
+    name: "Leon Moonen"
+    photo: "img/leon_moonen.jpg"
+    bio: "Leon Moonen is a senior research scientist in the Software Engineering department at Simula Research Laboratory, Norway. His research aims at creating better techniques and tools to support the understanding, assessment and evolution of large industrial software systems. This combines several subfields of software engineering, such as program comprehension, reverse engineering, program analysis, software visualization and empirical software engineering. Currently ongoing projects include recommendation systems to support smarter evolution and testing of safety-critical cyber-physical product families, and software analytics for measuring and managing technical debt (i.e. software quality and maintainability assessments). Dr. Moonen has published nearly 100 scientific papers (2752 citations, h-index: 28) and serves on steering-, organizing-, and program committees of international conferences on software maintenance and evolution, reverse engineering, program understanding, and source code analysis."
+    company: "Simula Research Laboratory, Norway"
+    no-email: "Leon.Moonen@computer.org"
+    homepage: "http://leonmoonen.com/"
+
+
+# Contact section
+contact_section:
+   title: "Contact"
+   text: ""
+   contacts:
+   -
+     title: "Contact the steering committee if you have any questions."
+     email: "hise-forum@googlegroups.com"
+
+   show_form: false
+
+
+# supporters section
+supporters_section:
+   title: "Sponsors"
+   show_your_logo_here: true
+
+# List of financial supporters (sponsors)
+supporters:
+
+# Partners section
+partners_section:
+   title: "Partners"
+   show_your_logo_here: false
+
+# List of Partners (same format as supporters)
+partners:
+  -
+    name: "Simula Research Laboratory"
+    logo: "img/simula-logo.png"
+    url: "https://simula.no"
+  -
+    name: "Certus Center for Research-based Innovation"
+    logo: "img/certus-logo.png"
+    url: "https://certus-sfi.no"
+  -
+    name: "Institute for Energy Technology"
+    logo: "img/ife-logo.png"
+    url: "http://ife.no/en"
+  -
+    name: "Bergen Language Design Laboratory"
+    logo: "img/bldl-logo.png"
+    url: "https://bldl.ii.uib.no/"
+
+

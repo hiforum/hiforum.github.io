@@ -1,0 +1,32 @@
+<!-- NAVIGATION -->
+<nav id="nav">
+  <ul class="wrapper">
+    {% if site.sections.about %}
+      <li class="nav-item">
+        <a href="./#about" class="nav-link">{{site.about_section.title}}</a>
+      </li>
+    {% endif %}
+    {% if site.sections.committee %}
+      <li class="nav-item">
+        <a href="./#committee" class="nav-link">{{site.committee_section.title}}</a>
+      </li>
+    {% endif %}
+    {% if site.sections.supporters %}
+      <li class="nav-item">
+        <a href="./#supporters" class="nav-link">{{site.supporters_section.title}}</a>
+      </li>
+    {% endif %}
+    {% if site.sections.partners %}
+      <li class="nav-item">
+        <a href="./#partners" class="nav-link">{{site.partners_section.title}}</a>
+      </li>
+    {% endif %}
+    {% if site.sections.contact %}
+      <li class="nav-item">
+        <a href="./#contact" class="nav-link">{{site.contact_section.title}}</a>
+      </li>
+    {% endif %}
+  </ul>
+</nav>
+
+<hr />
