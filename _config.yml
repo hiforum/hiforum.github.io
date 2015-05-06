@@ -57,10 +57,10 @@ schedule_section:
 schedule:
   -
     name: "Check-in"
-    time: "9h00"
+    time: "8h30"
   -
     name: "Opening & Welcome"
-    time: "9h15"
+    time: "9h00"
     description: "Description of opening speakers"
   -
     name: "Tim Kelly"
@@ -70,22 +70,11 @@ schedule:
     email: "tim.kelly@york.ac.uk"
     presentation:
       title: "Keynote: Fundamental Principles of Software Safety Assurance"
-      description: "There are many standards that either directly or indirectly address the development and assurance of safety-critical software (e.g. ISO 26262 for the automotive domain, EN 50128 for the railway domain, and DO-178B/C in the aerospace domain). There are easily observed differences in the details of these standards. For example, DO-178B uses the concept of Development Assurance Levels (DALs) to moderate the objectives of the standard according to the criticality of the software under development, whereas IEC 61508 uses the concept of Safety Integrity Levels (SILs) to make recommendations as to suitable design and assurance techniques according to the criticality of the software under development. The requirements and recommendations for SILs in IEC 61508 are not the same as those for DALs in DO-178B. However, underlying these differences there are a number of fundamental principles that can be observed in many of the current standards. Using a framework of 4+1 principles of software safety, this talk will discuss the essential features and challenges of current safety-critical software development.
-"
-      time: "9h30"
+      description: "There are many standards that either directly or indirectly address the development and assurance of safety-critical software (e.g. ISO 26262 for the automotive domain, EN 50128 for the railway domain, and DO-178B/C in the aerospace domain). There are easily observed differences in the details of these standards. For example, DO-178B uses the concept of Development Assurance Levels (DALs) to moderate the objectives of the standard according to the criticality of the software under development, whereas IEC 61508 uses the concept of Safety Integrity Levels (SILs) to make recommendations as to suitable design and assurance techniques according to the criticality of the software under development. The requirements and recommendations for SILs in IEC 61508 are not the same as those for DALs in DO-178B. However, underlying these differences there are a number of fundamental principles that can be observed in many of the current standards. Using a framework of 4+1 principles of software safety, this talk will discuss the essential features and challenges of current safety-critical software development."
+      time: "9h15"
   -
     name: "Coffee-break"
-    time: "10h30"
-  -
-    name: "Name Speaker #1"
-    photo: "img/brown_woman.png"
-    bio: "Bio of speaker 1."
-    company: "Affiliation"
-    twitter: "twitterhandle"
-    presentation:
-      title: "Challenges High Integrity Systems in the Maritime Industry"
-      description: "Abstract"
-      time: "11h00"
+    time: "10h15"
   -
     name: "Name Speaker #2"
     photo: "img/orange_boy.png"
@@ -95,28 +84,29 @@ schedule:
     presentation:
       title: "Ensuring Safety of Robots"
       description: "Abstract"
-      time: "11h30"
-  -
-    name: "Lunch"
-    time: "12h00"
-  -
-    name: "Harold Thimbleby"
-    photo: "img/harold_thimbleby.jpg"
-    bio: "Harold Thimbleby is professor of computer science at Swansea University, Wales. His passion is designing dependable systems to accommodate human error, especially in healthcare. Harold is an Honorary Fellow of the Royal College of Physicians, a Fellow of the Royal College of Physicians, Edinburgh, the Institute of Engineering Technology, the Learned Society of Wales, and an Honorary Fellow of the Royal Society of Arts. He is a visiting professor at UCL and at Middlesex University and has been a Royal Society Wolfson Research Merit award holder and a Royal Society Leverhulme Trust Senior Research Fellow. He is Emeritus Gresham Professor of Geometry."
-    company: "Swansea University, Wales"
-    presentation:
-      title: "Designing IT to make healthcare safer"
-      description: "Abstract will be added soon"
-      time: "13h00"
+      time: "10h45"
   -
     name: "Lillian Røstad"
     photo: "img/lillian_rostad.jpg"
-    bio: "Bio of speaker 4."
+    bio: "The bio of Lillian will be added soon."
     company: "Agency for Public Management and eGovernment (Difi), Norway"
     presentation:
       title: "Software Security in eGovernment"
       description: "Abstract will be added soon"
-      time: "13h30"
+      time: "11h15"
+  -
+    name: "Name Speaker #4"
+    photo: "img/brown_man.png"
+    bio: "Bio of speaker 4."
+    company: "Affiliation"
+    twitter: "twitterhandle"
+    presentation:
+      title: "Safety Assessment of High Energy Systems"
+      description: "Abstract"
+      time: "11h45"
+  -
+    name: "Lunch"
+    time: "12h15"
   -
     name: "Name Speaker #5"
     photo: "img/white_woman.png"
@@ -124,29 +114,48 @@ schedule:
     company: "Affiliation"
     twitter: "twitterhandle"
     presentation:
-      title: "Safety Assessment of High Energy Systems"
+      title: "Railway Safety Assessment and Certification"
       description: "Abstract"
-      time: "14h00"
-  -
-    name: "Coffee-break"
-    time: "14h30"
-  -
-    name: "Name Speaker #6"
-    photo: "img/orange_girl.png"
-    bio: "Bio of speaker 6."
-    company: "Affiliation"
-    twitter: "twitterhandle"
-    presentation:
-      title: "Towards better Certification Practices in Avionics"
-      description: "Abstract"
-      time: "15h00"
+      time: "13h00"
   -
     name: "Ahmed Elmokashfi"
     photo: "img/ahmed_elmokashfi.jpg"
     bio: "Bio of Ahmed will be added soon"
     company: "Simula Research Laboratory, Norway"
     presentation:
-      title: "Towards Robust Communication Infrastructures"
+      title: "Robustness of Communication Infrastructures"
+      description: "Abstract will be added soon"
+      time: "13h30"
+  -
+    name: "Name Speaker #7"
+    photo: "img/orange_girl.png"
+    bio: "Bio of speaker 7."
+    company: "Affiliation"
+    twitter: "twitterhandle"
+    presentation:
+      title: "Security Challenges in Electronic Voting"
+      description: "Abstract"
+      time: "14h00"
+  -
+    name: "Coffee-break"
+    time: "14h30"
+  -
+    name: "Name Speaker #8"
+    photo: "img/red_man.png"
+    bio: "Bio of speaker 8."
+    company: "Affiliation"
+    twitter: "twitterhandle"
+    presentation:
+      title: "Safety in Air Traffic Control"
+      description: "Abstract"
+      time: "15h00"
+  -
+    name: "Harold Thimbleby"
+    photo: "img/harold_thimbleby.jpg"
+    bio: "Harold Thimbleby is professor of computer science at Swansea University, Wales. His passion is designing dependable systems to accommodate human error, especially in healthcare. Harold is an Honorary Fellow of the Royal College of Physicians, a Fellow of the Royal College of Physicians, Edinburgh, the Institute of Engineering Technology, the Learned Society of Wales, and an Honorary Fellow of the Royal Society of Arts. He is a visiting professor at UCL and at Middlesex University and has been a Royal Society Wolfson Research Merit award holder and a Royal Society Leverhulme Trust Senior Research Fellow. He is Emeritus Gresham Professor of Geometry."
+    company: "Swansea University, Wales"
+    presentation:
+      title: "Designing IT to make healthcare safer"
       description: "Abstract will be added soon"
       time: "15h30"
   -
@@ -156,7 +165,7 @@ schedule:
     presentation:
       title: "Fishbowl Panel Discussion"
       description: "Description of the panel format/procedure: 'Fishbowl' rotating panel."
-      time: "16h00"
+      time: "16h15"
   -
     name: "Wrap-up"
     time: "17h00"
