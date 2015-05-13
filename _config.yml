@@ -95,13 +95,12 @@ schedule:
       description: "Abstract will be added soon"
       time: "11h15"
   -
-    name: "Name Speaker #4"
-    photo: "img/brown_man.png"
-    bio: "Bio of speaker 4."
-    company: "Affiliation"
-    twitter: "twitterhandle"
+    name: "Einar Landre"
+    photo: "img/einar_landre.jpg"
+    bio: "Einar Landre is a practicing software professional with almost 30 years of experience as a developer, architect, consultant, leader, and presenter. Currently he holds the position as leader of Statoil's value chain IT unit, where he is responsible for the products and services used to support Statoil's well construction process. He is an IEEE Certified Software Development Professional and has a Master of Science in Information Technology from the University of Strathclyde, UK."
+    company: "Statoil"
     presentation:
-      title: "Safety Assessment of High Energy Systems"
+      title: "Software dependency in upstream oil and gas – challenges and opportunities"
       description: "Abstract"
       time: "11h45"
   -
@@ -120,11 +119,11 @@ schedule:
   -
     name: "Ahmed Elmokashfi"
     photo: "img/ahmed_elmokashfi.jpg"
-    bio: "Bio of Ahmed will be added soon"
+    bio: "Ahmed Elmokashfi is a Research Scientist at Simula Research Laboratory. He is currently leading the NorNet and MobRob projects which focus on measuring and assessing the robustness and performance of mobile broadband networks in Norway. His research focuses on the measurement and quantification of robustness in mobile broadband networks; the resilience, scalability, and evolution of the Internet infrastructure; and the understanding of dynamical complex systems."
     company: "Simula Research Laboratory, Norway"
     presentation:
       title: "Robustness of Communication Infrastructures"
-      description: "Abstract will be added soon"
+      description: "Our society has become increasingly reliant on communication infrastructures ranging from the Internet to mobile networks. Understanding and accurately quantifying factors that determine the reliability of these networks are crucial to reducing odds of our society being crippled by large-scale cascading outages. These infrastructures, however, operate within a complex eco-system encompassing everything from the physical infrastructure they run on the top of to the policies regulating their operations. Communication networks often depend on each other to extend their coverage and to expand their capacity. They also depend on other infrastructures like power grid and fiber optic networks. Hence, the reliability of a communication network cannot be assessed in isolation and should be examined in a much broader context involving all interdependent infrastructures. This talk will broadly discuss the different factors that influence the reliability of communication infrastructures. In particular, it will focus and draw lessons from the ongoing efforts at the Centre for Resilient Network and Applications at Simula that aim at understanding and assessing the reliability of Mobile Broadband Networks in Norway."
       time: "13h30"
   -
     name: "Name Speaker #7"
