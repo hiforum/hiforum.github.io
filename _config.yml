@@ -80,7 +80,6 @@ schedule:
     photo: "img/orange_boy.png"
     bio: "Bio of speaker 2."
     company: "Affiliation"
-    email: "mail@there.io"
     presentation:
       title: "Ensuring Safety of Robots"
       description: "Abstract"
@@ -101,20 +100,19 @@ schedule:
     company: "Statoil"
     presentation:
       title: "Software dependency in upstream oil and gas – challenges and opportunities"
-      description: "Abstract"
+      description: "Abstract will be added soon"
       time: "11h45"
   -
     name: "Lunch"
     time: "12h15"
   -
-    name: "Name Speaker #5"
-    photo: "img/white_woman.png"
-    bio: "Bio of speaker 5."
-    company: "Affiliation"
-    twitter: "twitterhandle"
+    name: "Bjørn Axel Gran"
+    photo: "img/BAG.jpg"
+    bio: "Bjørn Axel Gran work as team leader and specialist engineer in the Reliability department in Oslo. He also holds the positions as R&D Manager at Safetec, and  Adjunct Professor (20% position) at the Department of Production and Quality Engineering, NTNU. He has experiences with research and consultant/advisory services within fields such as oil & gas, energy, nuclear, air traffic management and railways. Typical services were project management and analyses such as FTA, PSA, FMECA, HAZID/OP, ROS, Safety case, security (information security), barrier management and compliance to standards/regulations."
+    company: "Safetec"
     presentation:
       title: "Railway Safety Assessment and Certification"
-      description: "Abstract"
+      description: "Abstract will be added soon"
       time: "13h00"
   -
     name: "Ahmed Elmokashfi"
@@ -126,14 +124,13 @@ schedule:
       description: "Our society has become increasingly reliant on communication infrastructures ranging from the Internet to mobile networks. Understanding and accurately quantifying factors that determine the reliability of these networks are crucial to reducing odds of our society being crippled by large-scale cascading outages. These infrastructures, however, operate within a complex eco-system encompassing everything from the physical infrastructure they run on the top of to the policies regulating their operations. Communication networks often depend on each other to extend their coverage and to expand their capacity. They also depend on other infrastructures like power grid and fiber optic networks. Hence, the reliability of a communication network cannot be assessed in isolation and should be examined in a much broader context involving all interdependent infrastructures. This talk will broadly discuss the different factors that influence the reliability of communication infrastructures. In particular, it will focus and draw lessons from the ongoing efforts at the Centre for Resilient Network and Applications at Simula that aim at understanding and assessing the reliability of Mobile Broadband Networks in Norway."
       time: "13h30"
   -
-    name: "Name Speaker #7"
-    photo: "img/orange_girl.png"
-    bio: "Bio of speaker 7."
-    company: "Affiliation"
-    twitter: "twitterhandle"
+    name: "IFE Speaker"
+    photo: "img/orange_boy.png"
+    bio: "Bio of IFE speaker"
+    company: "Institute for Energy Technology (IFE), Norway"
     presentation:
-      title: "Security Challenges in Electronic Voting"
-      description: "Abstract"
+      title: "Safety Demonstrations in the Nuclear Domain"
+      description: "Elevated safety needs, adaptation to state of the art equipment, increasing hardware and software complexity, as well as other factors challenge the current practices in safety demonstration and justification of new or modernized nuclear power plants (NPP). Our past research, focusing mainly on the digital instrumentation and control (DI&C) systems in NPPs, explored the state of practice and the challenges in related aspects by performing elicitations with nuclear regulators and by organizing expert workshops. Differences in regulatory and industrial environments and cultures in different countries lead to wide variations in safety demonstration and justification practices. However, common challenges remain with varied perceived importance. One of the main challenges identified as utmost relevant, addressed the convincing expression and argument of safety. This presentation outlines our findings from the previous year and introduces our current work towards the development of a reasoning framework for safety demonstration."
       time: "14h00"
   -
     name: "Coffee-break"
@@ -143,7 +140,6 @@ schedule:
     photo: "img/red_man.png"
     bio: "Bio of speaker 8."
     company: "Affiliation"
-    twitter: "twitterhandle"
     presentation:
       title: "Safety in Air Traffic Control"
       description: "Abstract"
@@ -154,7 +150,7 @@ schedule:
     bio: "Harold Thimbleby is professor of computer science at Swansea University, Wales. His passion is designing dependable systems to accommodate human error, especially in healthcare. Harold is an Honorary Fellow of the Royal College of Physicians, a Fellow of the Royal College of Physicians, Edinburgh, the Institute of Engineering Technology, the Learned Society of Wales, and an Honorary Fellow of the Royal Society of Arts. He is a visiting professor at UCL and at Middlesex University and has been a Royal Society Wolfson Research Merit award holder and a Royal Society Leverhulme Trust Senior Research Fellow. He is Emeritus Gresham Professor of Geometry."
     company: "Swansea University, Wales"
     presentation:
-      title: "Designing IT to make healthcare safer"
+      title: "Keynote: Designing IT to make healthcare safer"
       description: "Abstract will be added soon"
       time: "15h30"
   -
