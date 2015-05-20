@@ -100,7 +100,7 @@ schedule:
     company: "Statoil"
     presentation:
       title: "Software dependency in upstream oil and gas – challenges and opportunities"
-      description: "Abstract will be added soon"
+      description: "In the years to come the oil and gas industry will experience the same challenges as we have seen in automotive and aerospace, just to mention two industries where software has become an integral part of system performance. In this talk I will try to cast some light on the situation in the oil and gas industry, primarily using drilling as functional context, and try to point at how the industry from equipment vendors to operators need to rethink their software strategies. The drop in oil price combined with more difficult resources to harvest makes the need for change even more imminent than it was a year ago."
       time: "11h45"
   -
     name: "Lunch"
