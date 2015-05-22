@@ -76,13 +76,13 @@ schedule:
     name: "Coffee-break"
     time: "10h15"
   -
-    name: "Name Speaker #2"
-    photo: "img/orange_boy.png"
-    bio: "Bio of speaker 2."
-    company: "Affiliation"
+    name: "Markus Borg"
+    photo: "img/markus.jpg"
+    bio: "Markus Borg is a newly graduated PhD, working with the Software Engineering Research Group at Lund University, Sweden. His research interests are related to alleviating information overload in large-scale software development, with a focus on information retrieval and recommendation systems. Prior to his PhD studies he worked three years as a development engineer at ABB, involved in development of an IDE for process automation. He has experience of developing software adhering to the IEC 61508 and IEC 61511 safety standards."
+    company: "Lund University, Sweden"
     presentation:
-      title: "Ensuring Safety of Robots"
-      description: "Abstract"
+      title: "Traceability Reuse for Change Impact Analysis in a Safety-critical System"
+      description: "Change Impact Analysis (CIA) during software evolution of safety-critical systems is a fundamental but labor-intensive task. Several researchers have proposed tool support for CIA, but very few have been evaluated in industry. We present ImpRec, a recommendation System for Software Engineering (RSSE), tailored for CIA at a company in the automation domain. Building on research from assisted tracing using information retrieval solutions, and mining software repositories, ImpRec recommends development artifacts potentially impacted when resolving incoming issue reports. In contrast to previous work on automated CIA, our approach explicitly targets development artifacts that are not source code. We evaluate ImpRec in a two-phase industrial case study. First, we measure the correctness of ImpRec's recommendations by simulating the historical inflow of 12 years' worth of issue reports in the company. Second, we assess the utility of working with ImpRec by deploying the RSSE in two development teams. Our results suggest that ImpRec presents about 40% of the true impact among the top-10 recommendations. Furthermore, user log analysis indicates that ImpRec can support CIA in industry, and developers acknowledge the value of ImpRec in interviews. In conclusion, our findings show the potential of reusing traceability associated with developers' past activities in an RSSE. However, more research is needed on how to retrain the tool once deployed, and how to adapt processes when new tools are introduced in safety-critical contexts."
       time: "10h45"
   -
     name: "Lillian Røstad"
@@ -136,13 +136,13 @@ schedule:
     name: "Coffee-break"
     time: "14h30"
   -
-    name: "Name Speaker #8"
-    photo: "img/red_man.png"
-    bio: "Bio of speaker 8."
-    company: "Affiliation"
+    name: "Rajunesh Shankar"
+    photo: "img/rajunesh.jpg"
+    bio: "The bio of Rajunesh will be added soon."
+    company: "Civil Aviation Authority (CAA, Luftfartstilsynet), Norway"
     presentation:
       title: "Safety in Air Traffic Control"
-      description: "Abstract"
+      description: "The abstract will be added soon."
       time: "15h00"
   -
     name: "Harold Thimbleby"
