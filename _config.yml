@@ -48,7 +48,7 @@ sections:
 # Schedule section
 schedule_section:
    title: "(Tentative) Schedule"
-   text: "While we are working out the speaker details, the schedule below provides an impression of the overall program / topics we aim at."
+   text: "While we are working out the speaker order and talk details, the schedule below provides an impression of the overall program / topics we aim at."
    time: "Time"
    slot: "Slot"
    description: "Description"
@@ -177,7 +177,7 @@ partners:
   -
     name: "Certus Center for Research-based Innovation"
     logo: "img/certus-logo.png"
-    url: "https://certus-sfi.no"
+    url: "http://certus-sfi.no"
   -
     name: "Institute for Energy Technology"
     logo: "img/ife-logo.png"
@@ -201,7 +201,7 @@ about_section:
     - 
       p: "HISS 2015 builds on the success of the <a href=http://www.uib.no/ii/59562/bldl-high-integrity-day>2014 High Integrity Day</a>."
     -
-      p: "* Please note that space is limited and attendance is by registration only. We recommend holding off on travel and accommodation bookings until you receive the confirmation of registration from the workshop organisers, to avoid disappointment. There is no attendance fee. However, please appreciate that space is limited and catering needs to be booked in advance. For this reason, even though participation to the workshop is free of charge, there will be a cancellation fee of NOK 1000 for those who register but subsequently do not attend."
+      p: "* Please note that attendance is by registration only. There is no attendance fee, however, please appreciate that space is limited and catering needs to be booked in advance. For this reason, even though participation to the workshop is free of charge, there will be a cancellation fee of NOK 1000 for those who register but subsequently do not attend."
 
 # Call for papers section (unused for HISS 2015)
 c4p_section:
