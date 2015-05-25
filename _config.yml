@@ -8,7 +8,7 @@ conf:
    name: "HISS 2015"
    description: "High Integrity Systems Symposium"
    date: "June 3, 2015"
-   price: "Participation is open and free* - Register by May 26th!"
+   price: "Participation is open and free* - Register by May 28th!"
    address: "Simula Research Laboratory, Martin Linges vei 25, Fornebu, Norway (3rd floor of Terminalbygget, IT Fornebu/Technopolis)"
    mappointer-override: "Simula+Research+Laboratory/@59.8953574,10.6291997"
    venue: "Simula Research Laboratory"
@@ -193,11 +193,13 @@ about_section:
    title: "About"
    description: 
     - 
-      p: "Software has become an essential part of our critical national infrastructure, such as transport systems, banking industries, and energy generation, and a key element in devices in the medical and automotive sector. The failure of such software-based systems can have profound consequences both for individuals and for companies that are responsible for delivering such software."
+      p: "Software has become an essential part of our critical national infrastructure, such as transport systems, banking industries, and energy generation, and a key element in various other aspects of our life, devices in the medical and automotive sector. The failure of such software based systems can have profound consequences, for individuals that use them, for companies that are responsible for delivering them, as well as for the society at large."
     -
-      p: "High integrity software and system engineering used to be the realm of avionics and the military, but with today's highly-interconnected and mobile systems, it is increasingly needed for common  applications to be able to demonstrate their reliability, robustness, safety, security and maintainability. As such, sound technologies that can address these high integrity concerns in an efficient manner are one of today’s key engineering challenges. "
+      p: "High integrity software and system engineering used to be the realm of avionics and the military, but with today's highly interconnected and mobile systems, it is increasingly needed for common applications to be able to demonstrate their reliability, robustness, safety, security and maintainability. As such, sound technologies that can address these high integrity concerns in an efficient manner are one of today's key engineering challenges."
     -
-      p: "The one day High Integrity Systems Symposium will be held at Simula in the first week of June 2015. It will will feature keynote talks from leading experts, presentations on current technology and experiences by researchers and practitioners, as well as a call for action to organize high integrity stakeholders in a national High Integrity Systems Forum.  We aim at 50-80 participants, mostly from Norway, with an equal mix of industrial and academic participants. We also aim at inviting a small number (4-5) of high profile international experts in the field, either as keynote speaker or as discussion leader."
+      p: "The one day High Integrity Systems Symposium at Simula will bring together researchers and practitioners from various domains, such as air traffic control, space, e-health, robotics, e-voting/e-government, energy/nuclear, rail and communication infrastructure.  The main goal is to create a platform where industry and research can meet and discuss needs, challenges and opportunities in the area of high integrity systems. A second goal is organize the various high integrity stakeholders in a national High Integrity Systems Forum that will focus on establishing a community with joint interests and serve as driving force behind future editions of the High Integrity Systems Symposium."
+    -
+      p: "The symposium will feature keynote talks from leading experts, presentations on current technology and experiences by researchers and practitioners and a (rotating) discussion panel. Social and networking opportunities will be created by a joint lunch, a networking reception after the talks and and a joint dinner. We aim at 50-80 participants, mostly from Norway, with an equal mix of industrial and academic participants. We also aim at inviting a small number (4-5) of high profile international experts in the field, either as keynote speaker or as discussion leader."
     - 
       p: "HISS 2015 builds on the success of the <a href=http://www.uib.no/ii/59562/bldl-high-integrity-day>2014 High Integrity Day</a>."
     -
