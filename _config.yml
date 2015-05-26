@@ -85,13 +85,13 @@ schedule:
       description: "Change Impact Analysis (CIA) during software evolution of safety-critical systems is a fundamental but labor-intensive task. Several researchers have proposed tool support for CIA, but very few have been evaluated in industry. We present ImpRec, a recommendation System for Software Engineering (RSSE), tailored for CIA at a company in the automation domain. Building on research from assisted tracing using information retrieval solutions, and mining software repositories, ImpRec recommends development artifacts potentially impacted when resolving incoming issue reports. In contrast to previous work on automated CIA, our approach explicitly targets development artifacts that are not source code. We evaluate ImpRec in a two-phase industrial case study. First, we measure the correctness of ImpRec's recommendations by simulating the historical inflow of 12 years' worth of issue reports in the company. Second, we assess the utility of working with ImpRec by deploying the RSSE in two development teams. Our results suggest that ImpRec presents about 40% of the true impact among the top-10 recommendations. Furthermore, user log analysis indicates that ImpRec can support CIA in industry, and developers acknowledge the value of ImpRec in interviews. In conclusion, our findings show the potential of reusing traceability associated with developers' past activities in an RSSE. However, more research is needed on how to retrain the tool once deployed, and how to adapt processes when new tools are introduced in safety-critical contexts."
       time: "10h45"
   -
-    name: "Lillian Røstad"
-    photo: "img/lillian_rostad.jpg"
-    bio: "The bio of Lillian will be added soon."
+    name: "Håkon Styri"
+    photo: "img/hakon_styri.jpg"
+    bio: "Håkon Styri is senior adviser at the Information Security Section at the Agency for Public Management and eGovernment in Norway.  His working experience covers research and development, consulting, and 10 years as senior adviser for various authorities in the civil service. Styri has worked as research scientist at SINTEF, systems designer at Norsk Data AS, various research positions at Telenor R&D, and managed his own consultancy business. He received a BSc (hons) degree in computer science from Heriot-Watt University in 1985."
     company: "Agency for Public Management and eGovernment (Difi), Norway"
     presentation:
       title: "Software Security in eGovernment"
-      description: "Abstract will be added soon"
+      description: "Transition to eGovernment requires software built in a manner that are perceived as reliable and secure by society. Information security should be an important issue when building systems as well as when procuring systems. Software systems used in the public sector covers all kinds of applications. In 2015 the Agency for Public Management and eGovernment conducted a study to find the current status for addressing security in software development in the public sector. The study was performed by SINTEF and by adapting and simplifying the Building Security In Maturity Model (BSIMM) the study covers 20 entities in the Norwegian public sector. The first action using the results from this study is identifying which security practices the Agency for Public Management and eGovernment should aim at improving."
       time: "11h15"
   -
     name: "Einar Landre"
@@ -111,8 +111,8 @@ schedule:
     bio: "Bjørn Axel Gran work as team leader and specialist engineer in the Reliability department in Oslo. He also holds the positions as R&D Manager at Safetec, and  Adjunct Professor (20% position) at the Department of Production and Quality Engineering, NTNU. He has experiences with research and consultant/advisory services within fields such as oil & gas, energy, nuclear, air traffic management and railways. Typical services were project management and analyses such as FTA, PSA, FMECA, HAZID/OP, ROS, Safety case, security (information security), barrier management and compliance to standards/regulations."
     company: "Safetec"
     presentation:
-      title: "Railway Safety Assessment and Certification"
-      description: "Abstract will be added soon"
+      title: "Railway Safety Assessment and Certification - furthcoming challenges"
+      description: "For the years 2018-2027 ambitious goals are proposed for the Norwegian transport sector. New infrastructure shall be planned and produced so that climate emissions are minimised, and the development of railway around the large cities shall be prioritised. At the same time Norwegian Railways are struggling with spending the budgets, and there are delays in operation due to problems within the signal area. In this talk I will try to cast some light on the situation in the railways. I will point at how work in new projects are organised, and discuss some challenges that will come to handle developments including high integrity systems."
       time: "13h00"
   -
     name: "Ahmed Elmokashfi"
@@ -124,9 +124,9 @@ schedule:
       description: "Our society has become increasingly reliant on communication infrastructures ranging from the Internet to mobile networks. Understanding and accurately quantifying factors that determine the reliability of these networks are crucial to reducing odds of our society being crippled by large-scale cascading outages. These infrastructures, however, operate within a complex eco-system encompassing everything from the physical infrastructure they run on the top of to the policies regulating their operations. Communication networks often depend on each other to extend their coverage and to expand their capacity. They also depend on other infrastructures like power grid and fiber optic networks. Hence, the reliability of a communication network cannot be assessed in isolation and should be examined in a much broader context involving all interdependent infrastructures. This talk will broadly discuss the different factors that influence the reliability of communication infrastructures. In particular, it will focus and draw lessons from the ongoing efforts at the Centre for Resilient Network and Applications at Simula that aim at understanding and assessing the reliability of Mobile Broadband Networks in Norway."
       time: "13h30"
   -
-    name: "IFE Speaker"
-    photo: "img/orange_boy.png"
-    bio: "Bio of IFE speaker"
+    name: "Peter Karpati"
+    photo: "img/peter_karpati.jpg"
+    bio: "Peter Karpati works at the Institute of Energy Technology, Software Engineering department since 2012 as a senior scientist. His current research focuses on challenges in justification of safety critical systems, especially digital instrumentation and control systems of nuclear power plants. He received his PhD from Klagenfurt University in 2007 and published in the areas of multimedia systems, healthcare informatics, security and safety modelling and justification in peer-reviewed international journals and conferences."
     company: "Institute for Energy Technology (IFE), Norway"
     presentation:
       title: "Safety Demonstrations in the Nuclear Domain"
