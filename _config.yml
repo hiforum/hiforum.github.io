@@ -138,7 +138,7 @@ schedule:
   -
     name: "Rajunesh Shankar"
     photo: "img/rajunesh.jpg"
-    bio: "The bio of Rajunesh will be added soon."
+    bio: "Rajunesh Shankar works as a CNS Inspector (Communication/Navigation/Surveillance) at the Civil Aviation Authority-Norway. He works in the Air Navigation Services section dealing primarily with safety oversight activities and interoperability. He represents CAA-Norway as a member of the National Supervisory Authorities Coordination Platform (NCP) SESAR Deployment Working Group focusing on the deployment of the Pilot Common Project (Regulation EU 716/2014) from a supervisory authority’s perspective. He also serves as the Norwegian national focal point for annual European/Local Single Sky Implementation (ESSIP/LSSIP) reporting to the European Commission."
     company: "Civil Aviation Authority (CAA, Luftfartstilsynet), Norway"
     presentation:
       title: "Safety in Air Traffic Control"
@@ -150,8 +150,8 @@ schedule:
     bio: "Harold Thimbleby is professor of computer science at Swansea University, Wales. His passion is designing dependable systems to accommodate human error, especially in healthcare. Harold is an Honorary Fellow of the Royal College of Physicians, a Fellow of the Royal College of Physicians, Edinburgh, the Institute of Engineering Technology, the Learned Society of Wales, and an Honorary Fellow of the Royal Society of Arts. He is a visiting professor at UCL and at Middlesex University and has been a Royal Society Wolfson Research Merit award holder and a Royal Society Leverhulme Trust Senior Research Fellow. He is Emeritus Gresham Professor of Geometry."
     company: "Swansea University, Wales"
     presentation:
-      title: "Keynote: Designing IT to make healthcare safer"
-      description: "Abstract will be added soon"
+      title: "Keynote: Unknown knowns - A call to fix healthcare IT where it hurts"
+      description: "Donald Rumsfeld (twice US Secretary of Defense) famously said something about known knowns, known unknowns, and unknown unknowns. However, because he was unaware of formal methods, he forgot the unknown knowns. Unknown knowns are things we don’t know that other people know. In almost everything to do with IT, a blatant unknown known is formal methods and how using it will save lives. In healthcare, poor IT is responsible for killing patients – and for getting nurses blamed for it. This inexcusable state of affairs is exacerbated by politicians who want to rush in with “solutions” without any evidence better than calling it “investment in IT.”(Obamacare and $29 billion for new IT comes to mind.) While the world thinks healthcare IT is perfect and even getting better, then all the problems must be hospitals and clinicians being out-of-date and incompetent, right? (Incompetent clinicians is an easy problem to solve, after all: just sack them and replace them with error-free robots.)  Formal methods excel where problems are complex.  This talk will discuss some eye-opening trivial problems that are completely avoidable. Except that everybody – in particular the regulators, industry and (inexcusably) the research funders – are just daydreaming in healthcare, distracted by the seductive advances of consumer IT (which isn’t even so dependable when you look more closely).  If this is a High Integrity Systems Symposium, then this talk is an invitation to everyone here to help cure the blindness of unknown knowns: to help fix the ubiquitous life-threatening problems in healthcare that are going to directly affect all of us sooner or later."
       time: "15h30"
   -
     name: "Panelists"
