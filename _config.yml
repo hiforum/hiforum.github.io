@@ -42,7 +42,7 @@ sections:
   speakers: true
   schedule: true
   supporters: true
-  partners: true
+  partners: false
   contact: true
 
 # Schedule section
@@ -56,7 +56,7 @@ schedule_section:
 # The entire schedule
 schedule:
   -
-    name: "Check-in"
+    name: "Check-in & Coffee"
     time: "8h30"
   -
     name: "Opening & Welcome"
@@ -67,13 +67,12 @@ schedule:
     photo: "img/tim_kelly.png"
     bio: "Tim Kelly is Professor of High Integrity Systems within the Department of Computer Science at the University of York. He is perhaps best known for his work on system and software safety case development, particularly his work on refining and extending the Goal Structuring Notation (GSN). His research interests include safety case management, software safety analysis and justification, software architecture safety, certification of adaptive and learning systems, and the dependability of “Systems of Systems”. He has supervised many research projects in these areas with funding and support from Airbus, BAE SYSTEMS, Data Systems and Solutions, DTI, EPSRC, ERA Technology, Ministry of Defence, QinetiQ and Rolls-Royce. He has published over 150 papers on high integrity systems development and justification in international journals and conferences."
     company: "University of York, UK"
-    email: "tim.kelly@york.ac.uk"
     presentation:
       title: "Keynote: Fundamental Principles of Software Safety Assurance"
       description: "There are many standards that either directly or indirectly address the development and assurance of safety-critical software (e.g. ISO 26262 for the automotive domain, EN 50128 for the railway domain, and DO-178B/C in the aerospace domain). There are easily observed differences in the details of these standards. For example, DO-178B uses the concept of Development Assurance Levels (DALs) to moderate the objectives of the standard according to the criticality of the software under development, whereas IEC 61508 uses the concept of Safety Integrity Levels (SILs) to make recommendations as to suitable design and assurance techniques according to the criticality of the software under development. The requirements and recommendations for SILs in IEC 61508 are not the same as those for DALs in DO-178B. However, underlying these differences there are a number of fundamental principles that can be observed in many of the current standards. Using a framework of 4+1 principles of software safety, this talk will discuss the essential features and challenges of current safety-critical software development."
       time: "9h15"
   -
-    name: "Coffee-break"
+    name: "Coffee break"
     time: "10h15"
   -
     name: "Markus Borg"
@@ -133,7 +132,7 @@ schedule:
       description: "Elevated safety needs, adaptation to state of the art equipment, increasing hardware and software complexity, as well as other factors challenge the current practices in safety demonstration and justification of new or modernized nuclear power plants (NPP). Our past research, focusing mainly on the digital instrumentation and control (DI&C) systems in NPPs, explored the state of practice and the challenges in related aspects by performing elicitations with nuclear regulators and by organizing expert workshops. Differences in regulatory and industrial environments and cultures in different countries lead to wide variations in safety demonstration and justification practices. However, common challenges remain with varied perceived importance. One of the main challenges identified as utmost relevant, addressed the convincing expression and argument of safety. This presentation outlines our findings from the previous year and introduces our current work towards the development of a reasoning framework for safety demonstration."
       time: "14h00"
   -
-    name: "Coffee-break"
+    name: "Coffee break"
     time: "14h30"
   -
     name: "Rajunesh Shankar"
@@ -167,17 +166,21 @@ schedule:
 
 # List of Supporters
 supporters:
-
+  -
+    name: "The Research Council of Norway"
+    logo: "img/rcn1.png"
+    url: "http://rcn.no/"
+#
 # List of Partners (same format as supporters)
-partners:
+#partners:
   -
     name: "Simula Research Laboratory"
     logo: "img/simula-logo.png"
-    url: "https://simula.no"
+    url: "http://www.simula.no/"
   -
     name: "Certus Center for Research-based Innovation"
     logo: "img/certus-logo.png"
-    url: "http://certus-sfi.no"
+    url: "http://certus-sfi.no/"
   -
     name: "Institute for Energy Technology"
     logo: "img/ife-logo.png"
@@ -186,6 +189,10 @@ partners:
     name: "Bergen Language Design Laboratory"
     logo: "img/bldl-logo.png"
     url: "https://bldl.ii.uib.no/"
+  -
+    name: "Bergen University"
+    logo: "img/uib-logo.svg"
+    url: "https://www.uib.no/"
 
 
 # About section
@@ -254,4 +261,4 @@ partners_section:
 # supporters section
 supporters_section:
    title: "Sponsors"
-   show_your_logo_here: true
+   show_your_logo_here: false
