@@ -47,8 +47,8 @@ sections:
 
 # Schedule section
 schedule_section:
-   title: "(Tentative) Schedule"
-   text: "While we are working out the speaker order and talk details, the schedule below provides an impression of the overall program / topics we aim at."
+   title: "Schedule"
+   text: ""
    time: "Time"
    slot: "Slot"
    description: "Description"
@@ -72,9 +72,6 @@ schedule:
       description: "There are many standards that either directly or indirectly address the development and assurance of safety-critical software (e.g. ISO 26262 for the automotive domain, EN 50128 for the railway domain, and DO-178B/C in the aerospace domain). There are easily observed differences in the details of these standards. For example, DO-178B uses the concept of Development Assurance Levels (DALs) to moderate the objectives of the standard according to the criticality of the software under development, whereas IEC 61508 uses the concept of Safety Integrity Levels (SILs) to make recommendations as to suitable design and assurance techniques according to the criticality of the software under development. The requirements and recommendations for SILs in IEC 61508 are not the same as those for DALs in DO-178B. However, underlying these differences there are a number of fundamental principles that can be observed in many of the current standards. Using a framework of 4+1 principles of software safety, this talk will discuss the essential features and challenges of current safety-critical software development."
       time: "9h15"
   -
-    name: "Coffee break"
-    time: "10h15"
-  -
     name: "Markus Borg"
     photo: "img/markus.jpg"
     bio: "Markus Borg is a newly graduated PhD, working with the Software Engineering Research Group at Lund University, Sweden. His research interests are related to alleviating information overload in large-scale software development, with a focus on information retrieval and recommendation systems. Prior to his PhD studies he worked three years as a development engineer at ABB, involved in development of an IDE for process automation. He has experience of developing software adhering to the IEC 61508 and IEC 61511 safety standards."
@@ -82,7 +79,10 @@ schedule:
     presentation:
       title: "Traceability Reuse for Change Impact Analysis in a Safety-critical System"
       description: "Change Impact Analysis (CIA) during software evolution of safety-critical systems is a fundamental but labor-intensive task. Several researchers have proposed tool support for CIA, but very few have been evaluated in industry. We present ImpRec, a recommendation System for Software Engineering (RSSE), tailored for CIA at a company in the automation domain. Building on research from assisted tracing using information retrieval solutions, and mining software repositories, ImpRec recommends development artifacts potentially impacted when resolving incoming issue reports. In contrast to previous work on automated CIA, our approach explicitly targets development artifacts that are not source code. We evaluate ImpRec in a two-phase industrial case study. First, we measure the correctness of ImpRec's recommendations by simulating the historical inflow of 12 years' worth of issue reports in the company. Second, we assess the utility of working with ImpRec by deploying the RSSE in two development teams. Our results suggest that ImpRec presents about 40% of the true impact among the top-10 recommendations. Furthermore, user log analysis indicates that ImpRec can support CIA in industry, and developers acknowledge the value of ImpRec in interviews. In conclusion, our findings show the potential of reusing traceability associated with developers' past activities in an RSSE. However, more research is needed on how to retrain the tool once deployed, and how to adapt processes when new tools are introduced in safety-critical contexts."
-      time: "10h45"
+      time: "10h15"
+  -
+    name: "Coffee break"
+    time: "10h45"
   -
     name: "Håkon Styri"
     photo: "img/hakon_styri.jpg"
@@ -141,7 +141,7 @@ schedule:
     company: "Civil Aviation Authority (CAA, Luftfartstilsynet), Norway"
     presentation:
       title: "Safety in Air Traffic Control"
-      description: "The abstract will be added soon."
+      description: "The European Air Traffic Management (ATM) system is a €8.6 billion a year industry currently handling about 33,000 flights daily. Experts forecast this increasing to nearly 45,000 flights per day by 2030 and 50,000 flights on busy days. In addition, a fragmented European airspace costs an additional €2-3 billion every year. The European airspace plans to accommodate the increasing air traffic flows, whilst reducing costs and improving safety and performance through the Single European Sky (SES) initiative and implementation of new SESAR (Single European Sky ATM Research) technologies. However, an overhaul of this size does not come without its fair share of challenges. In this talk, I will present some of the planned SESAR related changes and describe some challenges of implementing future systems from a regulators perspective."
       time: "15h00"
   -
     name: "Harold Thimbleby"
@@ -153,16 +153,26 @@ schedule:
       description: "Donald Rumsfeld (twice US Secretary of Defense) famously said something about known knowns, known unknowns, and unknown unknowns. However, because he was unaware of formal methods, he forgot the unknown knowns. Unknown knowns are things we don’t know that other people know. In almost everything to do with IT, a blatant unknown known is formal methods and how using it will save lives. In healthcare, poor IT is responsible for killing patients – and for getting nurses blamed for it. This inexcusable state of affairs is exacerbated by politicians who want to rush in with “solutions” without any evidence better than calling it “investment in IT.”(Obamacare and $29 billion for new IT comes to mind.) While the world thinks healthcare IT is perfect and even getting better, then all the problems must be hospitals and clinicians being out-of-date and incompetent, right? (Incompetent clinicians is an easy problem to solve, after all: just sack them and replace them with error-free robots.)  Formal methods excel where problems are complex.  This talk will discuss some eye-opening trivial problems that are completely avoidable. Except that everybody – in particular the regulators, industry and (inexcusably) the research funders – are just daydreaming in healthcare, distracted by the seductive advances of consumer IT (which isn’t even so dependable when you look more closely).  If this is a High Integrity Systems Symposium, then this talk is an invitation to everyone here to help cure the blindness of unknown knowns: to help fix the ubiquitous life-threatening problems in healthcare that are going to directly affect all of us sooner or later."
       time: "15h30"
   -
-    name: "Panelists"
+    name: "Moderator: Tim Kelly"
+    company: "all other speakers are invited as initial panelists."
     photo: "img/discussion-icon.png"
-    bio: "Names and affiliation / short bio of initial panelists."
+    bio: "Fishbowl format: we leave one empty seat for attendees to join the panel discussion. Once someone does take that seat, one of the other panelists will step down. This can be repeated based on demand."
     presentation:
-      title: "Fishbowl Panel Discussion"
-      description: "Description of the panel format/procedure: 'Fishbowl' rotating panel."
+      title: "Panel Discussion"
+      description: "Fishbowl format: we leave one empty seat for attendees to join the panel discussion. Once someone does take that seat, one of the other panelists will step down. This can be repeated based on demand."
       time: "16h15"
   -
     name: "Wrap-up"
     time: "17h00"
+  -
+    name: "Networking Reception"
+    time: "17h15"
+  -
+    name: "Public transport to Oslo"
+    time: "18h15"
+  -
+    name: "Symposium Dinner"
+    time: "19h00"
 
 # List of Supporters
 supporters:
