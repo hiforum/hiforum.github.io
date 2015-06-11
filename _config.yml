@@ -62,6 +62,7 @@ schedule:
     name: "Opening & Welcome"
     time: "9h00"
     description: "Description of opening speakers"
+    file: "presentations/HISS2015 - 1 - Opening.pdf"
   -
     name: "Tim Kelly"
     photo: "img/tim_kelly.png"
@@ -71,6 +72,7 @@ schedule:
       title: "Keynote: Fundamental Principles of Software Safety Assurance"
       description: "There are many standards that either directly or indirectly address the development and assurance of safety-critical software (e.g. ISO 26262 for the automotive domain, EN 50128 for the railway domain, and DO-178B/C in the aerospace domain). There are easily observed differences in the details of these standards. For example, DO-178B uses the concept of Development Assurance Levels (DALs) to moderate the objectives of the standard according to the criticality of the software under development, whereas IEC 61508 uses the concept of Safety Integrity Levels (SILs) to make recommendations as to suitable design and assurance techniques according to the criticality of the software under development. The requirements and recommendations for SILs in IEC 61508 are not the same as those for DALs in DO-178B. However, underlying these differences there are a number of fundamental principles that can be observed in many of the current standards. Using a framework of 4+1 principles of software safety, this talk will discuss the essential features and challenges of current safety-critical software development."
       time: "9h15"
+      file: "presentations/HISS2015 - 2 - Fundamental Principles of Software Safety Assurance.pdf"
   -
     name: "Ahmed Elmokashfi"
     photo: "img/ahmed_elmokashfi.jpg"
@@ -80,6 +82,7 @@ schedule:
       title: "Robustness of Communication Infrastructures"
       description: "Our society has become increasingly reliant on communication infrastructures ranging from the Internet to mobile networks. Understanding and accurately quantifying factors that determine the reliability of these networks are crucial to reducing odds of our society being crippled by large-scale cascading outages. These infrastructures, however, operate within a complex eco-system encompassing everything from the physical infrastructure they run on the top of to the policies regulating their operations. Communication networks often depend on each other to extend their coverage and to expand their capacity. They also depend on other infrastructures like power grid and fiber optic networks. Hence, the reliability of a communication network cannot be assessed in isolation and should be examined in a much broader context involving all interdependent infrastructures. This talk will broadly discuss the different factors that influence the reliability of communication infrastructures. In particular, it will focus and draw lessons from the ongoing efforts at the Centre for Resilient Network and Applications at Simula that aim at understanding and assessing the reliability of Mobile Broadband Networks in Norway."
       time: "10h15"
+      file: "presentations/HISS2015 - 3 - Robustness of Communication Infrastructures.pdf"
   -
     name: "Coffee break"
     time: "10h45"
@@ -92,6 +95,7 @@ schedule:
       title: "Software Security in eGovernment"
       description: "Transition to eGovernment requires software built in a manner that are perceived as reliable and secure by society. Information security should be an important issue when building systems as well as when procuring systems. Software systems used in the public sector covers all kinds of applications. In 2015 the Agency for Public Management and eGovernment conducted a study to find the current status for addressing security in software development in the public sector. The study was performed by SINTEF and by adapting and simplifying the Building Security In Maturity Model (BSIMM) the study covers 20 entities in the Norwegian public sector. The first action using the results from this study is identifying which security practices the Agency for Public Management and eGovernment should aim at improving."
       time: "11h15"
+      file: "presentations/HISS2015 - 4 - Software Security in eGovernment.pdf"
   -
     name: "Einar Landre"
     photo: "img/einar_landre.jpg"
@@ -101,6 +105,7 @@ schedule:
       title: "Software dependency in upstream oil and gas – challenges and opportunities"
       description: "In the years to come the oil and gas industry will experience the same challenges as we have seen in automotive and aerospace, just to mention two industries where software has become an integral part of system performance. In this talk I will try to cast some light on the situation in the oil and gas industry, primarily using drilling as functional context, and try to point at how the industry from equipment vendors to operators need to rethink their software strategies. The drop in oil price combined with more difficult resources to harvest makes the need for change even more imminent than it was a year ago."
       time: "11h45"
+      file: "presentations/HISS2015 - 5 - Software dependency in upstream oil and gas.pdf"
   -
     name: "Lunch"
     time: "12h15"
@@ -113,6 +118,7 @@ schedule:
       title: "Railway Safety Assessment and Certification - furthcoming challenges"
       description: "For the years 2018-2027 ambitious goals are proposed for the Norwegian transport sector. New infrastructure shall be planned and produced so that climate emissions are minimised, and the development of railway around the large cities shall be prioritised. At the same time Norwegian Railways are struggling with spending the budgets, and there are delays in operation due to problems within the signal area. In this talk I will try to cast some light on the situation in the railways. I will point at how work in new projects are organised, and discuss some challenges that will come to handle developments including high integrity systems."
       time: "13h00"
+      file: "presentations/HISS2015 - 6 - Railway Safety Assessment and Certification.pdf"
   -
     name: "Markus Borg"
     photo: "img/markus.jpg"
@@ -122,6 +128,7 @@ schedule:
       title: "Traceability Reuse for Change Impact Analysis in a Safety-critical System"
       description: "Change Impact Analysis (CIA) during software evolution of safety-critical systems is a fundamental but labor-intensive task. Several researchers have proposed tool support for CIA, but very few have been evaluated in industry. We present ImpRec, a recommendation System for Software Engineering (RSSE), tailored for CIA at a company in the automation domain. Building on research from assisted tracing using information retrieval solutions, and mining software repositories, ImpRec recommends development artifacts potentially impacted when resolving incoming issue reports. In contrast to previous work on automated CIA, our approach explicitly targets development artifacts that are not source code. We evaluate ImpRec in a two-phase industrial case study. First, we measure the correctness of ImpRec's recommendations by simulating the historical inflow of 12 years' worth of issue reports in the company. Second, we assess the utility of working with ImpRec by deploying the RSSE in two development teams. Our results suggest that ImpRec presents about 40% of the true impact among the top-10 recommendations. Furthermore, user log analysis indicates that ImpRec can support CIA in industry, and developers acknowledge the value of ImpRec in interviews. In conclusion, our findings show the potential of reusing traceability associated with developers' past activities in an RSSE. However, more research is needed on how to retrain the tool once deployed, and how to adapt processes when new tools are introduced in safety-critical contexts."
       time: "13h30"
+      file: "presentations/HISS2015 - 7 - Traceability Reuse for Change Impact Analysis in a Safety-critical System.pdf"
   -
     name: "Peter Karpati"
     photo: "img/peter_karpati.jpg"
@@ -131,6 +138,7 @@ schedule:
       title: "Safety Demonstrations in the Nuclear Domain"
       description: "Elevated safety needs, adaptation to state of the art equipment, increasing hardware and software complexity, as well as other factors challenge the current practices in safety demonstration and justification of new or modernized nuclear power plants (NPP). Our past research, focusing mainly on the digital instrumentation and control (DI&C) systems in NPPs, explored the state of practice and the challenges in related aspects by performing elicitations with nuclear regulators and by organizing expert workshops. Differences in regulatory and industrial environments and cultures in different countries lead to wide variations in safety demonstration and justification practices. However, common challenges remain with varied perceived importance. One of the main challenges identified as utmost relevant, addressed the convincing expression and argument of safety. This presentation outlines our findings from the previous year and introduces our current work towards the development of a reasoning framework for safety demonstration."
       time: "14h00"
+      file: "presentations/HISS2015 - 8 - Safety Demonstration for NPP.pdf"
   -
     name: "Coffee break"
     time: "14h30"
@@ -143,6 +151,7 @@ schedule:
       title: "Challenges of Future Air Traffic Management Systems from a Regulators perspective"
       description: "The European Air Traffic Management (ATM) system is a €8.6 billion a year industry currently handling about 33,000 flights daily. Experts forecast this increasing to nearly 45,000 flights per day by 2030 and 50,000 flights on busy days. In addition, a fragmented European airspace costs an additional €2-3 billion every year. The European airspace plans to accommodate the increasing air traffic flows, whilst reducing costs and improving safety and performance through the Single European Sky (SES) initiative and implementation of new SESAR (Single European Sky ATM Research) technologies. However, an overhaul of this size does not come without its fair share of challenges. In this talk, I will present some of the planned SESAR related changes and describe some challenges of implementing future systems from a regulators perspective."
       time: "15h00"
+      file: "presentations/HISS2015 - 9 - Challenges of Future ATM Systems.pdf"
   -
     name: "Harold Thimbleby"
     photo: "img/harold_thimbleby.jpg"
@@ -152,6 +161,7 @@ schedule:
       title: "Keynote: Unknown knowns - A call to fix healthcare IT where it hurts"
       description: "Donald Rumsfeld (twice US Secretary of Defense) famously said something about known knowns, known unknowns, and unknown unknowns. However, because he was unaware of formal methods, he forgot the unknown knowns. Unknown knowns are things we don’t know that other people know. In almost everything to do with IT, a blatant unknown known is formal methods and how using it will save lives. In healthcare, poor IT is responsible for killing patients – and for getting nurses blamed for it. This inexcusable state of affairs is exacerbated by politicians who want to rush in with “solutions” without any evidence better than calling it “investment in IT.”(Obamacare and $29 billion for new IT comes to mind.) While the world thinks healthcare IT is perfect and even getting better, then all the problems must be hospitals and clinicians being out-of-date and incompetent, right? (Incompetent clinicians is an easy problem to solve, after all: just sack them and replace them with error-free robots.)  Formal methods excel where problems are complex.  This talk will discuss some eye-opening trivial problems that are completely avoidable. Except that everybody – in particular the regulators, industry and (inexcusably) the research funders – are just daydreaming in healthcare, distracted by the seductive advances of consumer IT (which isn’t even so dependable when you look more closely).  If this is a High Integrity Systems Symposium, then this talk is an invitation to everyone here to help cure the blindness of unknown knowns: to help fix the ubiquitous life-threatening problems in healthcare that are going to directly affect all of us sooner or later."
       time: "15h30"
+      file: "presentations/HISS2015 - 10 - Unknown knowns - A call to fix healthcare IT where it hurts.pdf"
   -
     name: "Moderator: Tim Kelly"
     company: "all other speakers are invited as initial panelists."
